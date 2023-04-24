@@ -1,2 +1,326 @@
 # 2269
 JavaScript 全攻略：克服 JS 的奇怪部分
+### 微:NoBug1024 
+
+
+课程介绍：
+
+JavaScript 是現今開發者都必須熟悉的程式語言，這可以讓你得到工作、建立好的網站及應用。
+
+注意：這們課包含了ECMAScript 6 (ES6)，也就是下一版本的JavaScript之資訊！
+
+在這門課中你能深入瞭解JavaScript，知道它的運作模式，來幫助你避免一些可能會犯的錯誤，大幅提升你除錯的能力。你可以懂得一些其他人（甚至是有經驗的開發者）都很困惑的東西，你將見識到這個程式語言的美麗與強大。
+
+這門課將提到進階概念，包含了物件與物件實體、函數表示式、原型繼承、函數程式設計、範圍鏈、函數建構子（還有新的ES6功能）、立即呼叫的函數表示式（IIFEs）、call、apply、bind等等。
+
+我們會深入討論知名框架的的原始碼，像是jQuery和Underscore，從中學習JavaScript的知識。
+
+最後，你將學到如何建立自己的JavaScript框架或資源庫之基礎。
+
+在這門課中所到的東西會讓你成為更好的JavaScript開發者，並增進你在AngularJS、NodeJS、jQuery、React、Ember、MongoDB及其他以JavaScript為基礎的技術！
+
+〖课程目录〗:
+
+- ├──01 準備開始  
+- |   ├──001 課程簡介及課程目標-en.srt  6.92kb
+- |   ├──001 課程簡介及課程目標-zh.srt  6.24kb
+- |   ├──001 課程簡介及課程目標.mp4  14.62M
+- |   ├──002 設定-en.srt  4.45kb
+- |   ├──002 設定-zh.srt  3.61kb
+- |   ├──002 設定.mp4  8.83M
+- |   ├──003 重點字和 JavaScript-en.srt  1.96kb
+- |   ├──003 重點字和 JavaScript-zh.srt  1.67kb
+- |   ├──003 重點字和 JavaScript.mp4  3.54M
+- |   ├──004 用高畫質觀看課程.html  1.66kb
+- |   ├──005 瞭解框架與奇怪的部分-en.srt  6.04kb
+- |   ├──005 瞭解框架與奇怪的部分-zh.srt  5.44kb
+- |   └──005 瞭解框架與奇怪的部分.mp4  8.44M
+- ├──02 執行環境與詞彙環境  
+- |   ├──006 觀念小叮嚀：語法解析器、執行環境與詞彙環境-en.srt  10.42kb
+- |   ├──006 觀念小叮嚀：語法解析器、執行環境與詞彙環境-zh.srt  9.27kb
+- |   ├──006 觀念小叮嚀：語法解析器、執行環境與詞彙環境.mp4  16.79M
+- |   ├──007 觀念小叮嚀：名稱_值配對與物件-en.srt  5.31kb
+- |   ├──007 觀念小叮嚀：名稱_值配對與物件-zh.srt  4.96kb
+- |   ├──007 觀念小叮嚀：名稱_值配對與物件.mp4  6.96M
+- |   ├──008 下載課程的原始碼.html  1.50kb
+- |   ├──009 B3-Global-Environment.zip  1.44kb
+- |   ├──009 全域環境與全域物件-en.srt  13.87kb
+- |   ├──009 全域環境與全域物件-zh.srt  12.16kb
+- |   ├──009 全域環境與全域物件.mp4  19.35M
+- |   ├──010 B4-Hoisting.zip  1.40kb
+- |   ├──010 執行環境：創造與提升-en.srt  12.03kb
+- |   ├──010 執行環境：創造與提升-zh.srt  9.81kb
+- |   ├──010 執行環境：創造與提升.mp4  20.57M
+- |   ├──011 B5-Undefined.zip  1.45kb
+- |   ├──011 觀念小叮嚀：JavaScript 與 undefined-en.srt  9.80kb
+- |   ├──011 觀念小叮嚀：JavaScript 與 undefined-zh.srt  8.33kb
+- |   ├──011 觀念小叮嚀：JavaScript 與 undefined.mp4  14.09M
+- |   ├──012 B6-Execution.zip  1.46kb
+- |   ├──012 執行環境：程式執行-en.srt  3.86kb
+- |   ├──012 執行環境：程式執行-zh.srt  3.31kb
+- |   ├──012 執行環境：程式執行.mp4  6.32M
+- |   ├──013 觀念小叮嚀：單執行緒、同步執行-en.srt  2.74kb
+- |   ├──013 觀念小叮嚀：單執行緒、同步執行-zh.srt  2.39kb
+- |   ├──013 觀念小叮嚀：單執行緒、同步執行.mp4  5.78M
+- |   ├──014 B6-Execution.zip  1.46kb
+- |   ├──014 函數呼叫與執行堆-en.srt  9.93kb
+- |   ├──014 函數呼叫與執行堆-zh.srt  8.50kb
+- |   ├──014 函數呼叫與執行堆.mp4  12.44M
+- |   ├──015 B9-Variable-Environments.zip  1.52kb
+- |   ├──015 函數、環境與變數環境-en.srt  9.30kb
+- |   ├──015 函數、環境與變數環境-zh.srt  8.21kb
+- |   ├──015 函數、環境與變數環境.mp4  13.03M
+- |   ├──016 B10-Scope-Chain.zip  1.47kb
+- |   ├──016 範圍鏈-en.srt  21.37kb
+- |   ├──016 範圍鏈-zh.srt  19.05kb
+- |   ├──016 範圍鏈.mp4  25.73M
+- |   ├──017 範圍、ES6 與 let-en.srt  5.59kb
+- |   ├──017 範圍、ES6 與 let-zh.srt  5.07kb
+- |   ├──017 範圍、ES6 與 let.mp4  6.03M
+- |   ├──018 B11-What-About-Asynchronous-Callbacks.zip  0.87kb
+- |   ├──018 關於非同步回呼-en.srt  15.03kb
+- |   ├──018 關於非同步回呼-zh.srt  13.13kb
+- |   └──018 關於非同步回呼.mp4  21.15M
+- ├──03 型別與運算子  
+- |   ├──019 觀念小叮嚀：型別與 JavaScript-en.srt  3.67kb
+- |   ├──019 觀念小叮嚀：型別與 JavaScript-zh.srt  3.13kb
+- |   ├──019 觀念小叮嚀：型別與 JavaScript.mp4  6.62M
+- |   ├──020 純值-en.srt  6.77kb
+- |   ├──020 純值-zh.srt  6.33kb
+- |   ├──020 純值.mp4  8.87M
+- |   ├──021 觀念小叮嚀：運算子-en.srt  8.18kb
+- |   ├──021 觀念小叮嚀：運算子-zh.srt  6.75kb
+- |   ├──021 觀念小叮嚀：運算子.mp4  9.94M
+- |   ├──022 Operator-Precedence-In-Javascript.pdf  115.65kb
+- |   ├──022 運算子的優先性與相依性-en.srt  18.05kb
+- |   ├──022 運算子的優先性與相依性-zh.srt  14.85kb
+- |   ├──022 運算子的優先性與相依性.mp4  31.78M
+- |   ├──023 運算子的優先性與相依性表格.html  1.28kb
+- |   ├──024 觀念小叮嚀：強制型轉-en.srt  7.07kb
+- |   ├──024 觀念小叮嚀：強制型轉-zh.srt  5.85kb
+- |   ├──024 觀念小叮嚀：強制型轉.mp4  9.64M
+- |   ├──025 Equalty-Comparison-And-Sameness.pdf  190.13kb
+- |   ├──025 比較運算子-en.srt  24.28kb
+- |   ├──025 比較運算子-zh.srt  20.80kb
+- |   ├──025 比較運算子.mp4  35.57M
+- |   ├──026 相等性比較表格.html  1.25kb
+- |   ├──027 C8-Booleans-Existence.zip  1.48kb
+- |   ├──027 存在與布林-en.srt  9.34kb
+- |   ├──027 存在與布林-zh.srt  8.16kb
+- |   ├──027 存在與布林.mp4  11.48M
+- |   ├──028 C9-Default-Values.zip  1.43kb
+- |   ├──028 預設值-en.srt  9.47kb
+- |   ├──028 預設值-zh.srt  8.45kb
+- |   ├──028 預設值.mp4  11.91M
+- |   ├──029 框架小叮嚀：預設值-en.srt  8.54kb
+- |   ├──029 框架小叮嚀：預設值-zh.srt  7.39kb
+- |   └──029 框架小叮嚀：預設值.mp4  9.42M
+- ├──04 物件與函數  
+- |   ├──030 D1-Objects-And-The-Dot.zip  1.57kb
+- |   ├──030 物件與「點」-en.srt  20.41kb
+- |   ├──030 物件與「點」-zh.srt  17.04kb
+- |   ├──030 物件與「點」.mp4  27.36M
+- |   ├──031 D2-Object-Literals.zip  1.55kb
+- |   ├──031 物件與物件實體-en.srt  12.22kb
+- |   ├──031 物件與物件實體-zh.srt  10.02kb
+- |   ├──031 物件與物件實體.mp4  16.32M
+- |   ├──032 D3-Faking-Namespaces.zip  1.55kb
+- |   ├──032 框架小叮嚀：偽裝命名空間-en.srt  9.93kb
+- |   ├──032 框架小叮嚀：偽裝命名空間-zh.srt  9.32kb
+- |   ├──032 框架小叮嚀：偽裝命名空間.mp4  14.93M
+- |   ├──033 D4-JSON.zip  1.36kb
+- |   ├──033 JSON 與物件實體-en.srt  8.54kb
+- |   ├──033 JSON 與物件實體-zh.srt  7.75kb
+- |   ├──033 JSON 與物件實體.mp4  11.87M
+- |   ├──034 D5-Functions-Are-Objects.zip  1.50kb
+- |   ├──034 函數就是物件-en.srt  9.41kb
+- |   ├──034 函數就是物件-zh.srt  8.46kb
+- |   ├──034 函數就是物件.mp4  15.64M
+- |   ├──035 D6-Function-Expressions.zip  1.52kb
+- |   ├──035 函數陳述句與函數表示式-en.srt  26.82kb
+- |   ├──035 函數陳述句與函數表示式-zh.srt  24.06kb
+- |   ├──035 函數陳述句與函數表示式.mp4  38.51M
+- |   ├──036 D6b-By-Value-By-Reference.zip  1.67kb
+- |   ├──036 觀念小叮嚀：傳值和傳參考-en.srt  20.23kb
+- |   ├──036 觀念小叮嚀：傳值和傳參考-zh.srt  17.83kb
+- |   ├──036 觀念小叮嚀：傳值和傳參考.mp4  27.99M
+- |   ├──037 D7-Object-Functions-And-This.zip  1.67kb
+- |   ├──037 物件、函數與「this」-en.srt  25.57kb
+- |   ├──037 物件、函數與「this」-zh.srt  22.33kb
+- |   ├──037 物件、函數與「this」.mp4  64.61M
+- |   ├──038 D7b-Arrays-Collections-Of-Anything.zip  1.70kb
+- |   ├──038 觀念小叮嚀：陣列——任何東西的集合-en.srt  7.38kb
+- |   ├──038 觀念小叮嚀：陣列——任何東西的集合-zh.srt  6.63kb
+- |   ├──038 觀念小叮嚀：陣列——任何東西的集合.mp4  8.44M
+- |   ├──039 'arguments' 與 spread-en.srt  15.59kb
+- |   ├──039 'arguments' 與 spread-zh.srt  13.98kb
+- |   ├──039 'arguments' 與 spread.mp4  26.84M
+- |   ├──039 D8-Arguments.zip  1.55kb
+- |   ├──040 D9-Function-Overloading.zip  1.64kb
+- |   ├──040 框架小叮嚀：重載函數-en.srt  5.84kb
+- |   ├──040 框架小叮嚀：重載函數-zh.srt  5.30kb
+- |   ├──040 框架小叮嚀：重載函數.mp4  9.30M
+- |   ├──041 觀念小叮嚀：語法解析器-en.srt  3.05kb
+- |   ├──041 觀念小叮嚀：語法解析器-zh.srt  2.51kb
+- |   ├──041 觀念小叮嚀：語法解析器.mp4  3.32M
+- |   ├──042 D11-Automatic-Semicolon-Insertion.zip  1.62kb
+- |   ├──042 危險小叮嚀：自動插入分號-en.srt  7.34kb
+- |   ├──042 危險小叮嚀：自動插入分號-zh.srt  6.70kb
+- |   ├──042 危險小叮嚀：自動插入分號.mp4  7.74M
+- |   ├──043 D12-Whitespace.zip  1.46kb
+- |   ├──043 框架小叮嚀：空格-en.srt  5.54kb
+- |   ├──043 框架小叮嚀：空格-zh.srt  4.89kb
+- |   ├──043 框架小叮嚀：空格.mp4  9.37M
+- |   ├──044 D14-IIF-Es.zip  1.47kb
+- |   ├──044 立即呼叫的函數表示式（IIFEs）-en.srt  20.29kb
+- |   ├──044 立即呼叫的函數表示式（IIFEs）-zh.srt  18.48kb
+- |   ├──044 立即呼叫的函數表示式（IIFEs）.mp4  27.73M
+- |   ├──045 D15-IIF-Es-And-Safe-Code.zip  1.84kb
+- |   ├──045 框架小叮嚀：IIFEs 與安全程式碼-en.srt  9.72kb
+- |   ├──045 框架小叮嚀：IIFEs 與安全程式碼-zh.srt  8.36kb
+- |   ├──045 框架小叮嚀：IIFEs 與安全程式碼.mp4  13.91M
+- |   ├──046 D16-Closures.zip  1.39kb
+- |   ├──046 瞭解閉包（一）-en.srt  12.67kb
+- |   ├──046 瞭解閉包（一）-zh.srt  10.99kb
+- |   ├──046 瞭解閉包（一）.mp4  15.78M
+- |   ├──047 D16b-Closures-Part-2.zip  1.56kb
+- |   ├──047 瞭解閉包（二）-en.srt  21.76kb
+- |   ├──047 瞭解閉包（二）-zh.srt  18.31kb
+- |   ├──047 瞭解閉包（二）.mp4  29.25M
+- |   ├──048 D17-Function-Factories.zip  1.59kb
+- |   ├──048 框架小叮嚀：Function Factories-en.srt  15.30kb
+- |   ├──048 框架小叮嚀：Function Factories-zh.srt  13.46kb
+- |   ├──048 框架小叮嚀：Function Factories.mp4  24.25M
+- |   ├──049 D18-Closures-And-Callbacks.zip  1.73kb
+- |   ├──049 閉包與回呼-en.srt  10.32kb
+- |   ├──049 閉包與回呼-zh.srt  8.92kb
+- |   ├──049 閉包與回呼.mp4  15.81M
+- |   ├──050 call()、apply() 與 bind()-en.srt  24.35kb
+- |   ├──050 call()、apply() 與 bind()-zh.srt  20.82kb
+- |   ├──050 call()、apply() 與 bind().mp4  44.36M
+- |   ├──050 D19-Call-Apply-Bind.zip  1.71kb
+- |   ├──051 D20-Functional-Programming.zip  1.75kb
+- |   ├──051 函數程式設計（一）-en.srt  24.53kb
+- |   ├──051 函數程式設計（一）-zh.srt  20.18kb
+- |   ├──051 函數程式設計（一）.mp4  35.51M
+- |   ├──052 D20b-Functional-Programming-Part-2.zip  16.26kb
+- |   ├──052 函數程式設計（二）-en.srt  10.29kb
+- |   ├──052 函數程式設計（二）-zh.srt  8.66kb
+- |   └──052 函數程式設計（二）.mp4  25.74M
+- ├──05 JavaScript 的物件導向與原型繼承  
+- |   ├──053 觀念小叮嚀：古典和原型繼承-en.srt  6.45kb
+- |   ├──053 觀念小叮嚀：古典和原型繼承-zh.srt  5.53kb
+- |   ├──053 觀念小叮嚀：古典和原型繼承.mp4  11.43M
+- |   ├──054 E2-Understanding-The-Prototype.zip  1.75kb
+- |   ├──054 瞭解原型-en.srt  16.01kb
+- |   ├──054 瞭解原型-zh.srt  14.19kb
+- |   ├──054 瞭解原型.mp4  21.11M
+- |   ├──055 所有東西都是物件（或純值）-en.srt  7.23kb
+- |   ├──055 所有東西都是物件（或純值）-zh.srt  6.55kb
+- |   ├──055 所有東西都是物件（或純值）.mp4  8.05M
+- |   ├──056 E4-Reflection-And-Extend.zip  30.00kb
+- |   ├──056 Reflection 與 Extend-en.srt  18.23kb
+- |   ├──056 Reflection 與 Extend-zh.srt  15.72kb
+- |   └──056 Reflection 與 Extend.mp4  33.17M
+- ├──06 建立物件  
+- |   ├──057 F1-Function-Constructors-New-History.zip  1.72kb
+- |   ├──057 函數建構子、「new」與 JavaScript 的歷史-en.srt  19.19kb
+- |   ├──057 函數建構子、「new」與 JavaScript 的歷史-zh.srt  17.29kb
+- |   ├──057 函數建構子、「new」與 JavaScript 的歷史.mp4  27.02M
+- |   ├──058 F2-Function-Constructors-And-Prototype.zip  1.96kb
+- |   ├──058 函數建構子與「.prototype」-en.srt  13.05kb
+- |   ├──058 函數建構子與「.prototype」-zh.srt  12.47kb
+- |   ├──058 函數建構子與「.prototype」.mp4  21.42M
+- |   ├──059 危險小叮嚀：「new 」與函數-en.srt  6.28kb
+- |   ├──059 危險小叮嚀：「new 」與函數-zh.srt  5.68kb
+- |   ├──059 危險小叮嚀：「new 」與函數.mp4  10.60M
+- |   ├──060 F4-Built-In-Function-Constructors.zip  1.66kb
+- |   ├──060 觀念小叮嚀：內建的函數建構子-en.srt  13.91kb
+- |   ├──060 觀念小叮嚀：內建的函數建構子-zh.srt  12.70kb
+- |   ├──060 觀念小叮嚀：內建的函數建構子.mp4  16.72M
+- |   ├──061 危險小叮嚀：內建的函數建構子-en.srt  5.16kb
+- |   ├──061 危險小叮嚀：內建的函數建構子-zh.srt  4.44kb
+- |   ├──061 危險小叮嚀：內建的函數建構子.mp4  10.48M
+- |   ├──062 危險小叮嚀：陣列與 for in-en.srt  4.05kb
+- |   ├──062 危險小叮嚀：陣列與 for in-zh.srt  3.43kb
+- |   ├──062 危險小叮嚀：陣列與 for in.mp4  6.35M
+- |   ├──063 F7-Object-Create-And-Prototypal.zip  1.77kb
+- |   ├──063 Object.create 與純粹的原型繼承-en.srt  15.94kb
+- |   ├──063 Object.create 與純粹的原型繼承-zh.srt  14.18kb
+- |   ├──063 Object.create 與純粹的原型繼承.mp4  23.15M
+- |   ├──064 ES6 與類別-en.srt  7.84kb
+- |   ├──064 ES6 與類別-zh.srt  7.00kb
+- |   └──064 ES6 與類別.mp4  10.87M
+- ├──07 雜談  
+- |   ├──065 H1-Initialization.zip  1.55kb
+- |   ├──065 初始化-en.srt  7.30kb
+- |   ├──065 初始化-zh.srt  6.42kb
+- |   ├──065 初始化.mp4  9.89M
+- |   ├──066 H2-Typeofinstanceof.zip  0.82kb
+- |   ├──066 「typeof」、「instanceof」與搞清楚這是什麼-en.srt  8.32kb
+- |   ├──066 「typeof」、「instanceof」與搞清楚這是什麼-zh.srt  7.67kb
+- |   ├──066 「typeof」、「instanceof」與搞清楚這是什麼.mp4  15.93M
+- |   ├──067 H3-Strictmode.zip  1.40kb
+- |   ├──067 嚴謹模式-en.srt  7.75kb
+- |   ├──067 嚴謹模式-zh.srt  6.85kb
+- |   ├──067 嚴謹模式.mp4  10.56M
+- |   └──068 嚴謹模式參考資料.html  1.37kb
+- ├──08 檢驗知名的框架與資源庫  
+- |   ├──069 從好的程式碼學習-en.srt  4.67kb
+- |   ├──069 從好的程式碼學習-zh.srt  4.25kb
+- |   ├──069 從好的程式碼學習.mp4  18.69M
+- |   ├──070 I2-Deep-Dive-J-Query.zip  80.08kb
+- |   ├──070 深入瞭解原始碼：jQeury（一）-en.srt  28.39kb
+- |   ├──070 深入瞭解原始碼：jQeury（一）-zh.srt  25.64kb
+- |   ├──070 深入瞭解原始碼：jQeury（一）.mp4  58.55M
+- |   ├──071 深入瞭解原始碼：jQeury（二）-en.srt  21.69kb
+- |   ├──071 深入瞭解原始碼：jQeury（二）-zh.srt  19.95kb
+- |   ├──071 深入瞭解原始碼：jQeury（二）.mp4  54.97M
+- |   ├──072 深入瞭解原始碼：jQeury（三）-en.srt  14.28kb
+- |   ├──072 深入瞭解原始碼：jQeury（三）-zh.srt  14.06kb
+- |   └──072 深入瞭解原始碼：jQeury（三）.mp4  35.21M
+- ├──09 來打造一個框架_資源庫！  
+- |   ├──073 需求-en.srt  4.27kb
+- |   ├──073 需求-zh.srt  3.76kb
+- |   ├──073 需求.mp4  4.13M
+- |   ├──074 J2-Structuring-Safe-Code.zip  160.72kb
+- |   ├──074 打造安全的程式-en.srt  4.20kb
+- |   ├──074 打造安全的程式-zh.srt  3.85kb
+- |   ├──074 打造安全的程式.mp4  3.63M
+- |   ├──075 J3-Our-Object-And-Prototype.zip  161.01kb
+- |   ├──075 我們的物件與其原型-en.srt  11.73kb
+- |   ├──075 我們的物件與其原型-zh.srt  10.84kb
+- |   ├──075 我們的物件與其原型.mp4  16.61M
+- |   ├──076 J4-Properties-And-Chainable-Methods.zip  161.82kb
+- |   ├──076 屬性與可鏈結方法-en.srt  21.71kb
+- |   ├──076 屬性與可鏈結方法-zh.srt  19.55kb
+- |   ├──076 屬性與可鏈結方法.mp4  41.25M
+- |   ├──077 J5-Adding-J-Query-Support.zip  162.37kb
+- |   ├──077 增加 jQuery 支援-en.srt  6.82kb
+- |   ├──077 增加 jQuery 支援-zh.srt  6.10kb
+- |   ├──077 增加 jQuery 支援.mp4  13.16M
+- |   ├──078 J6-Good-Commenting.zip  81.42kb
+- |   ├──078 好的註解-en.srt  2.93kb
+- |   ├──078 好的註解-zh.srt  2.45kb
+- |   ├──078 好的註解.mp4  7.25M
+- |   ├──079 J7-Lets-Use-Our-Framework.zip  163.53kb
+- |   ├──079 來使用我們的框架吧！-en.srt  10.47kb
+- |   ├──079 來使用我們的框架吧！-zh.srt  9.69kb
+- |   ├──079 來使用我們的框架吧！.mp4  16.40M
+- |   ├──080 小提醒-en.srt  0.85kb
+- |   ├──080 小提醒-zh.srt  0.69kb
+- |   └──080 小提醒.mp4  1.85M
+- ├──10 BONUS 課程  
+- |   ├──081 TypeScript、ES6 與轉譯式語言-en.srt  6.12kb
+- |   ├──081 TypeScript、ES6 與轉譯式語言-zh(1).srt  5.43kb
+- |   ├──081 TypeScript、ES6 與轉譯式語言.mp4  12.67M
+- |   └──082 轉譯式語言參考資料.html  1.66kb
+- ├──11 BONUS：準備 ECMAScript 6  
+- |   ├──083 現有與即將出現的功能-en.srt  1.44kb
+- |   ├──083 現有與即將出現的功能-zh.srt  1.40kb
+- |   ├──083 現有與即將出現的功能.mp4  3.55M
+- |   └──084 ES6 功能參考資料.html  1.10kb
+- └──12 結論  
+- |   ├──085 學習愛上奇怪的部分-en.srt  1.60kb
+- |   ├──085 學習愛上奇怪的部分-zh.srt  1.34kb
+- |   └──085 學習愛上奇怪的部分.mp4  3.55M
